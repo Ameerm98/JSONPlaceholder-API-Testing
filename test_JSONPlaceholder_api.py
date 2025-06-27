@@ -137,6 +137,6 @@ class TestJSONPlaceholderAPI:
         assert status_code == HTTPStatus.OK, f"Expected 200 OK for delete, got {status_code}"
 
         followup_response = requests.get(self.BASE_URL + "/posts/" + self.DELETE_POST_ID)
-        followup_status = followup_response.status_code
+        followup_status_code = followup_response.status_code
 
-        assert followup_status == HTTPStatus.NOT_FOUND, f"Expected 404 Not Found after delete, got {followup_status}"
+        assert followup_status_code == HTTPStatus.NOT_FOUND, f"Expected 404 Not Found after delete, got {followup_status_code}"
