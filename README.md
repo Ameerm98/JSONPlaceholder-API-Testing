@@ -60,13 +60,13 @@ This will generate and open a rich HTML report with:
 
 ⚠️ Challenges & Interesting Findings
 
-JSONPlaceholder is a fake API – It simulates creation/deletion but does not persist data.
+ - JSONPlaceholder is a fake API – It simulates creation/deletion but does not persist data.
 
-For real-world APIs, further validations (like confirming deletion via GET) would need actual persistence.
+ - For real-world APIs, further validations (like confirming deletion via GET) would need actual persistence.
 
 
 💡 Suggestions for Improving the API
 
-Implement real state changes (i.e., persist POST, DELETE, etc.) for better testing.
+ - Implement real state changes (i.e., persist POST, DELETE, etc.) for better testing.
 
-Return 400 Bad Request for invalid input types or missing fields during POST/PUT.
+ - Return 400 Bad Request for invalid input types or missing fields during POST/PUT.
