@@ -1,4 +1,4 @@
-# JSONPlaceholder API Test Suite
+# JSONPlaceholder API Testing Exercise
 
 ## 📌 Overview
 
