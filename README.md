@@ -31,8 +31,8 @@ They are lightweight, widely adopted in API testing, and allow fast prototyping 
     pytest test_jsonplaceholder.py -v
    
 ⚠️ Challenges & Interesting Findings
-JSONPlaceholder is a fake API – It simulates creation/deletion but does not persist data.
 
+JSONPlaceholder is a fake API – It simulates creation/deletion but does not persist data.
 For real-world APIs, further validations (like confirming deletion via GET) would need actual persistence.
 
 
