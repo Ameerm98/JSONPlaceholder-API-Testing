@@ -37,6 +37,6 @@ For real-world APIs, further validations (like confirming deletion via GET) woul
 
 
 💡 Suggestions for Improving the API
-Implement real state changes (i.e., persist POST, DELETE, etc.) for better testing.
 
+Implement real state changes (i.e., persist POST, DELETE, etc.) for better testing.
 Return 400 Bad Request for invalid input types or missing fields during POST/PUT.
