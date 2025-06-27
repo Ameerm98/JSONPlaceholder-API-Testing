@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This Home exercise includes a set of automated tests for the [JSONPlaceholder](https://jsonplaceholder.typicode.com) REST API,
+This Home exercise includes a set of automated tests for the [JSONPlaceholder](https://jsonplaceholder.typicode.com) RESTful API,
 built using `Python`, `requests`, and `pytest`. 
 It covers full CRUD operations (`GET`, `POST`, `PUT`, `DELETE`) with both positive and negative test cases, response data validation, and status code assertions.
 
