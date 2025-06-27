@@ -25,11 +25,39 @@ They are lightweight, widely adopted in API testing, and allow fast prototyping 
 1. Make sure Python and `pip` are installed on your system.
 2. Install dependencies:
    ```bash
-   pip install requests pytest
-3. Run the tests using:
+   pip install requests pytest allure-pytest
+3. Run the tests normally using:
    ```bash
     pytest test_jsonplaceholder.py -v
-   
+
+📊 How to Generate Allure Reports(Bonus)
+
+🔹 Mac (Homebrew)
+   ```bash 
+   brew install allure
+```
+      
+🔹 Windows
+
+Download Allure from: GitHub Releases
+
+Extract it and add the /bin folder to your System PATH.
+
+🔹 Linux (Ubuntu/Debian)
+   ```bash
+   sudo apt install allure 
+   ```
+🧪 Run with Allure
+   ```bash
+   pytest --alluredir=allure-results
+   allure serve allure-results
+   ```
+This will generate and open a rich HTML report with:
+
+✔ - Test results summary
+
+🔍- Test details with steps and status
+
 ⚠️ Challenges & Interesting Findings
 
 JSONPlaceholder is a fake API – It simulates creation/deletion but does not persist data.
