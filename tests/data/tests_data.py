@@ -40,6 +40,12 @@ UPDATE_POST = {
     "body": "updated body"
 }
 
+Foreign_POST = {
+    "id": 2,
+    "userId": 2,
+    "title": "כותרת חדשה",
+    "body": "גוף חדש"
+}
 POST_MISSING_FIELDS = {"body": "incomplete"}
 POST_MISSING_FIELDS_ID = '12'
 NULL_POST = {}

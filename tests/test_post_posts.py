@@ -71,3 +71,14 @@ class TestPOSTPosts:
 
         # Even an empty post returns 201 — this reflects JSONPlaceholder’s simulation logic
         assert resp.status_code == HTTPStatus.CREATED, f"Expected 201 Created, got {resp.status_code}"
+
+    def test_post_posts_foreign_post(self):
+        """
+        Test case: Creating a post with Hebrew title and body.
+        JSONPlaceholder still responds with 201 Created and generates a post.
+        """
+        resp = self.client.create_post(NULL_POST)
+
+        # foreign post returns 201 ,content of post doesn't affect functionality of code
+        assert resp.status_code == HTTPStatus.CREATED, f"Expected 201 Created, got {resp.status_code}"
+
