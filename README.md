@@ -5,6 +5,17 @@
 This Home exercise includes a set of automated tests for the [JSONPlaceholder](https://jsonplaceholder.typicode.com) RESTful API,
 It covers full CRUD operations (`GET`, `POST`, `PUT`, `DELETE`) with both positive and negative test cases, response data validation, and status code assertions.
 
+## 🎯 Test Objectives
+
+- ✅ Verify successful retrieval of all posts and individual posts by valid ID.
+- ✅ Ensure appropriate status codes (`200`, `201`, `404`) are returned for valid and invalid inputs.
+- ✅ Validate the structure and type of JSON response fields (`userId`, `id`, `title`, `body`).
+- ✅ Test POST requests with complete and incomplete payloads.
+- ✅ Test PUT updates with full data and partial data (missing fields).
+- ✅ Test DELETE functionality for existing, non-existent, and invalid post IDs.
+- ✅ Confirm API's behavior with malformed, null, and negative inputs.
+
+---
 
 
 ## 🔧 Tools & Libraries Used
