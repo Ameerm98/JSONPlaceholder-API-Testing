@@ -7,13 +7,14 @@ It covers full CRUD operations (`GET`, `POST`, `PUT`, `DELETE`) with both positi
 
 ## 🎯 Test Objectives
 
-- ✅ Verify successful retrieval of all posts and individual posts by valid ID.
+
 - ✅ Ensure appropriate status codes (`200`, `201`, `404`) are returned for valid and invalid inputs.
 - ✅ Validate the structure and type of JSON response fields (`userId`, `id`, `title`, `body`).
-- ✅ Test POST requests with complete and incomplete payloads.
-- ✅ Test PUT updates with full data and partial data (missing fields).
-- ✅ Test DELETE functionality for existing, non-existent, and invalid post IDs.
-- ✅ Confirm API's behavior with malformed, null, and negative inputs.
+- ✅ Verify successful retrieval of all posts and individual posts by valid ID.
+- ✅ Test POST endpoint with complete and incomplete payloads.
+- ✅ Test PUT endpoint with full data and partial data (missing fields).
+- ✅ Test DELETE endpoint functionality for existing, non-existent, and invalid post IDs.
+
 
 ---
 
