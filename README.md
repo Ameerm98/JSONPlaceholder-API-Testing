@@ -42,6 +42,14 @@ They are lightweight, widely adopted in API testing, and allow fast prototyping 
 
 📊 How to Generate Allure Reports(Bonus)
 
+🔹 Mac\Linux (Homebrew)
+   ```bash 
+   brew install allure
+```
+🔹 Windows
+
+Download Allure from: https://allurereport.org/docs/install-for-windows/
+
 🧪 Run with Allure
    ```bash
    pytest --alluredir=allure-results
