@@ -3,10 +3,9 @@
 ## 📌 Overview
 
 This Home exercise includes a set of automated tests for the [JSONPlaceholder](https://jsonplaceholder.typicode.com) RESTful API,
-built using `Python`, `requests`, and `pytest`. 
 It covers full CRUD operations (`GET`, `POST`, `PUT`, `DELETE`) with both positive and negative test cases, response data validation, and status code assertions.
 
----
+
 
 ## 🔧 Tools & Libraries Used
 
@@ -22,13 +21,17 @@ They are lightweight, widely adopted in API testing, and allow fast prototyping 
 
 ## 🚀 How to Run the Tests
 
-1. Make sure Python and `pip` are installed on your system.
-2. Install dependencies:
+1. Clone the Repository
    ```bash
-   pip install requests pytest allure-pytest
-3. Run the tests normally using:
+   git clone https://github.com/Ameerm98/JSONPlaceholder-API-Testing.git
+   cd JSONPlaceholder-API-Testing
+2. Make sure Python and `pip` are installed on your system.
+3. Install dependencies:
    ```bash
-    pytest test_jsonplaceholder.py -v
+   pip install -r requirements.txt
+4. Run the tests normally using:
+   ```bash
+    pytest
 
 📊 How to Generate Allure Reports(Bonus)
 
