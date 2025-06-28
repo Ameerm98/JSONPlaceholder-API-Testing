@@ -21,7 +21,7 @@ They are lightweight, widely adopted in API testing, and allow fast prototyping 
 
 ## 🚀 How to Run the Tests
 
-1. Clone the Repository
+1. Open a new empty Project(Pycharm,Vscode), In Terminal Clone the Repository
    ```bash
    git clone https://github.com/Ameerm98/JSONPlaceholder-API-Testing.git
 2. Enter JSONPlaceholder-API-Testing directory 
