@@ -42,24 +42,10 @@ They are lightweight, widely adopted in API testing, and allow fast prototyping 
 
 📊 How to Generate Allure Reports(Bonus)
 
-🔹 Mac (Homebrew)
-   ```bash 
-   brew install allure
-```
-      
-🔹 Windows
-
-Download Allure from: GitHub Releases
-
-Extract it and add the /bin folder to your System PATH.
-
-🔹 Linux (Ubuntu/Debian)
-   ```bash
-   sudo apt install allure 
-   ```
 🧪 Run with Allure
    ```bash
    pytest --alluredir=allure-results
+   allure generate allure-results --clean -o allure-report
    allure serve allure-results
    ```
 This will generate and open a rich HTML report with:
