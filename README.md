@@ -24,12 +24,19 @@ They are lightweight, widely adopted in API testing, and allow fast prototyping 
 1. Clone the Repository
    ```bash
    git clone https://github.com/Ameerm98/JSONPlaceholder-API-Testing.git
+2. Enter JSONPlaceholder-API-Testing directory 
+   ```bash
    cd JSONPlaceholder-API-Testing
-2. Make sure Python and `pip` are installed on your system.
-3. Install dependencies:
+3. Make sure Python and `pip` are installed on your system.
+4. Create a clean virtual environment:
+   ```bash
+   python -m venv venv
+   .\venv\Scripts\activate     # Mac: source venv/bin/activate      
+   
+5. Install dependencies:
    ```bash
    pip install -r requirements.txt
-4. Run the tests normally using:
+6. Run the tests normally using:
    ```bash
     pytest
 
