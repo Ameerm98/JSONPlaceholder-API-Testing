@@ -14,6 +14,8 @@ It covers full CRUD operations (`GET`, `POST`, `PUT`, `DELETE`) with both positi
 - ✅ Test POST endpoint with complete and incomplete payloads.
 - ✅ Test PUT endpoint with full data and partial data (missing fields).
 - ✅ Test DELETE endpoint functionality for existing, non-existent, and invalid post IDs.
+- ✅ Include both positive and negative edge cases across all endpoints to evaluate API robustness.
+
 
 
 ---
