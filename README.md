@@ -76,9 +76,12 @@ This will generate and open a rich HTML report with:
 
 🔍- Test details with steps and status
 
-⚠️ Challenges & Interesting Findings
+⚠️ Interesting Findings
+- JSONPlaceholder is a fake API – It simulates creation, updates, and deletion, but does not persist any data.
 
- - JSONPlaceholder is a fake API – It simulates creation/deletion but does not persist data.
+- Sending a PUT request with an ID outside the range 1–100 results in a 500 Internal Server Error, instead of a more appropriate status like 404 Not Found or 400 Bad Request.
+
+- The API accepts incomplete or empty payloads (POST/PUT) and still returns success (201 Created or 200 OK) – which wouldn’t be acceptable for production-grade APIs.
 
 
 
