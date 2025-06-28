@@ -10,12 +10,11 @@ It covers full CRUD operations (`GET`, `POST`, `PUT`, `DELETE`) with both positi
 
 - ✅ Ensure appropriate status codes (`200`, `201`, `404`) are returned for valid and invalid inputs.
 - ✅ Validate the structure and type of JSON response fields (`userId`, `id`, `title`, `body`).
-- ✅ Verify successful retrieval of all posts and individual posts by valid ID.
-- ✅ Test POST endpoint with complete and incomplete payloads.
-- ✅ Test PUT endpoint with full data and partial data (missing fields).
+- ✅ Verify successful retrieval of all posts.
+- ✅ Test GET endpoint with valid and invalid id.
+- ✅ Test POST,PUT endpoint with complete and incomplete payloads.
 - ✅ Test DELETE endpoint functionality for existing, non-existent, and invalid post IDs.
 - ✅ Include both positive and negative edge cases across all endpoints to evaluate API robustness.
-
 
 
 ---
