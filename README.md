@@ -43,6 +43,7 @@ They are lightweight, widely adopted in API testing, and allow fast prototyping 
 3. Make sure Python and `pip` are installed on your system.
 4. Create a clean virtual environment:
    ```bash
+   # already in a virtual environment pls run deactivate and then run suggested commands
    python -m venv venv
    .\venv\Scripts\activate     # Mac: source venv/bin/activate      
    
