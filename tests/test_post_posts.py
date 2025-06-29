@@ -14,19 +14,19 @@ from tests.data.tests_data import (
 )
 
 
-def API():
-    """Provide an API client instance for POST tests."""
+def get_api_client():
+    """Return an instance of the JSONPlaceholder API client."""
     return JSONPlaceholderAPI()
 
 
 class TestPOSTPosts:
-    client = API()
+    client = get_api_client()
 
     def test_post_posts(self):
         """
         Test case: Creating a new post with all required fields.
         JSONPlaceholder always returns a successful creation (201 Created),
-        and echoes back the post content along with a new ID.
+        and echos back the post content along with a new ID.
         """
         resp = self.client.create_post(NEW_POST)
         new_post = utils.get_response_content(resp)

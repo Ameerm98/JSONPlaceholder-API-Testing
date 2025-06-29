@@ -16,13 +16,13 @@ from tests.data.tests_data import (
 )
 
 
-def API():
-    """Provide an API client instance for all tests."""
+def get_api_client():
+    """Return an instance of the JSONPlaceholder API client."""
     return JSONPlaceholderAPI()
 
 
 class TestGETPosts:
-    client = API()
+    client = get_api_client()
 
     def test_get_posts(self):
         """Test retrieving the full list of posts."""

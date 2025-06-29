@@ -16,13 +16,13 @@ from tests.data.tests_data import (
 )
 
 
-def API():
-    """Provide an API client instance for PUT tests."""
+def get_api_client():
+    """Return an instance of the JSONPlaceholder API client."""
     return JSONPlaceholderAPI()
 
 
 class TestPUTPosts:
-    client = API()
+    client = get_api_client()
 
     def test_put_posts_id(self):
         """

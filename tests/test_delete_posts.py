@@ -9,13 +9,13 @@ from tests.data.tests_data import (
 )
 
 
-def API():
-    """Provide an API client instance for all DELETE tests."""
+def get_api_client():
+    """Return an instance of the JSONPlaceholder API client."""
     return JSONPlaceholderAPI()
 
 
 class TestDELETEPosts:
-    client = API()
+    client = get_api_client()
 
     def test_delete_posts_id(self):
         """
